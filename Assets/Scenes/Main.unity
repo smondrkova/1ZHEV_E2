@@ -1460,8 +1460,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnObstacles: 1
-  spawnFrequencyMean: 1.5
-  spawnFrequencyStd: 0.1
+  spawnFrequencyMean: 2
+  spawnFrequencyStd: 1
   spawnOffset:
     x: 0
     y: 2

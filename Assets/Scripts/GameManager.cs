@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
     /// GameObject used for the score text.
     /// </summary>
     public GameObject scoreText;
+
+    /// <summary>
+    /// GameObject used for the controls text.
+    /// </summary>
+    public GameObject controlsText;
     
     /// <summary>
     /// GameObject representing the main Player character.
@@ -118,6 +123,7 @@ public class GameManager : MonoBehaviour
             startText.SetActive(false);
             scoreText.SetActive(true);
             lossText.SetActive(false);
+            controlsText.SetActive(true);
         }
         else
         { // Setup a new game -> Wait for start.
@@ -128,6 +134,7 @@ public class GameManager : MonoBehaviour
             startText.SetActive(true);
             scoreText.SetActive(false);
             lossText.SetActive(false);
+            controlsText.SetActive(false);
         }
         
         // Set the state.

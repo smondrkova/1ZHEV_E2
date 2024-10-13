@@ -809,7 +809,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 2
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b628077f9296f6240ac3fbf4ea6eafe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 1.2
+  jumpVelocity: 1.4
   groundCheckDistance: 0.1
   groundLayerMask:
     serializedVersion: 2
@@ -1460,13 +1460,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnObstacles: 1
-  spawnFrequencyMean: 1
+  spawnFrequencyMean: 3
   spawnFrequencyStd: 0
   spawnOffset:
     x: 0
     y: 2
     z: 0
-  spawnSize: 1
+  spawnSize: 0.8
   spawnLayer: Obstacle
   obstaclePrefab: {fileID: 444823138257878674, guid: d9e6dffab2dc3ef4dbf678bf85c63c93, type: 3}
 --- !u!1 &1213650991
